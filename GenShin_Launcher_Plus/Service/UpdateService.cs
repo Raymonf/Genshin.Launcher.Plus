@@ -87,13 +87,13 @@ namespace GenShin_Launcher_Plus.Service
             }
 
             App.Current.LoadProgramCore.LoadUpdateCoreAsync();
-            string newver = App.Current.UpdateObject.Version;
+            /*string newver = App.Current.UpdateObject.Version;
             string version = Application.ResourceAssembly.GetName().Version.ToString();
             if (version != newver && !App.Current.IsLoading)
             {
                 main.MainGrid.Children.Add(new Views.UpdatePage());
                 App.Current.IsLoading = true;
-            }
+            }*/
         }
     }
 }

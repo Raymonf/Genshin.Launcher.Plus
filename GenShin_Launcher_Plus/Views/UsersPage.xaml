@@ -10,11 +10,11 @@
     <Grid Height="180" Width="380" Background="#FF647687">
         <GroupBox Header="{Binding languages.AddUsersPageTitle}">
             <Grid Background="White">
-                <Label Content="{Binding languages.AddUsersPageSubTitle}" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Microsoft YaHei UI"/>
-                <TextBox FontSize="12" mah:TextBoxHelper.Watermark="{Binding languages.AddUsersPageTextboxTips}" HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding Name}" VerticalAlignment="Top" Width="169" Margin="158,54,0,0" FontFamily="Microsoft YaHei UI"/>
-                <Button FontSize="12" Style="{StaticResource MahApps.Styles.Button.Square.Accent}" Content="{Binding languages.SaveBtn}" HorizontalAlignment="Left" Margin="81,101,0,0" VerticalAlignment="Top" Width="80" Command="{Binding SaveUserDataCommand}" FontFamily="Microsoft YaHei UI"/>
-                <Button FontSize="12" Style="{DynamicResource MahApps.Styles.Button.Square}" Content="{Binding languages.Cancel}" HorizontalAlignment="Left" Margin="209,101,0,0" VerticalAlignment="Top" Width="80" FontFamily="Microsoft YaHei UI" Command="{Binding RemoveThisPageCommand}"/>
-                <ComboBox HorizontalAlignment="Left" Height="16" Margin="54,54,0,0" VerticalAlignment="Top" Width="99" FontFamily="Microsoft YaHei UI" ItemsSource="{Binding GamePortLists}" DisplayMemberPath="GamePort" SelectedValuePath="GamePort" SelectedValue="{Binding GamePort}"/>
+                <Label Content="{Binding languages.AddUsersPageSubTitle}" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Microsoft JhengHei UI"/>
+                <TextBox FontSize="12" mah:TextBoxHelper.Watermark="{Binding languages.AddUsersPageTextboxTips}" HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding Name}" VerticalAlignment="Top" Width="169" Margin="158,54,0,0" FontFamily="Microsoft JhengHei UI"/>
+                <Button FontSize="12" Style="{StaticResource MahApps.Styles.Button.Square.Accent}" Content="{Binding languages.SaveBtn}" HorizontalAlignment="Left" Margin="81,101,0,0" VerticalAlignment="Top" Width="80" Command="{Binding SaveUserDataCommand}" FontFamily="Microsoft JhengHei UI"/>
+                <Button FontSize="12" Style="{DynamicResource MahApps.Styles.Button.Square}" Content="{Binding languages.Cancel}" HorizontalAlignment="Left" Margin="209,101,0,0" VerticalAlignment="Top" Width="80" FontFamily="Microsoft JhengHei UI" Command="{Binding RemoveThisPageCommand}"/>
+                <ComboBox HorizontalAlignment="Left" Height="16" Margin="54,54,0,0" VerticalAlignment="Top" Width="99" FontFamily="Microsoft JhengHei UI" ItemsSource="{Binding GamePortLists}" DisplayMemberPath="GamePort" SelectedValuePath="GamePort" SelectedValue="{Binding GamePort}"/>
             </Grid>
         </GroupBox>
     </Grid>

@@ -11,8 +11,8 @@
              Height="730" Width="1280" Background="White">
     <Grid Background="White">
         <TextBlock HorizontalAlignment="Center" Margin="0,78,0,0" VerticalAlignment="Top" FontSize="45" Foreground="Black" Width="1032" Height="106" TextAlignment="Center"><Run d:Text="Welcome Title" Text="{Binding languages.WelcomeTitle}"/><LineBreak/></TextBlock>
-        <TextBox mah:TextBoxHelper.Watermark="{Binding languages.PathBoxTips}" HorizontalAlignment="Left" Height="44" Margin="189,616,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="830" FontSize="24" FontFamily="Microsoft YaHei UI" BorderThickness="3"/>
-        <Button Style="{StaticResource MahApps.Styles.Button.Square.Accent}" Content="···" HorizontalAlignment="Left" Margin="1019,616,0,0" VerticalAlignment="Top" Height="44" Width="79" FontFamily="Microsoft YaHei UI" FontSize="16" BorderBrush="#FF83919F" Command="{Binding DirchooseCommand}"/>
+        <TextBox mah:TextBoxHelper.Watermark="{Binding languages.PathBoxTips}" HorizontalAlignment="Left" Height="44" Margin="189,616,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="830" FontSize="24" FontFamily="Microsoft JhengHei UI" BorderThickness="3"/>
+        <Button Style="{StaticResource MahApps.Styles.Button.Square.Accent}" Content="···" HorizontalAlignment="Left" Margin="1019,616,0,0" VerticalAlignment="Top" Height="44" Width="79" FontFamily="Microsoft JhengHei UI" FontSize="16" BorderBrush="#FF83919F" Command="{Binding DirchooseCommand}"/>
         <TextBlock HorizontalAlignment="Center" Margin="0,148,0,0" VerticalAlignment="Top" FontSize="26" Foreground="Black" Width="1032" Height="65" TextAlignment="Center" d:Text="Bootstrap Title" Text="{Binding languages.BootstrapTitle}"/>
         <Image Source="/Images/UI_0.jpg" Height="180"/>
         <TextBlock HorizontalAlignment="Center" Margin="0,543,0,0" VerticalAlignment="Top" FontSize="32" Foreground="Black" Width="1032" Height="65" TextAlignment="Center"><Run d:Text="Final Tips Label" Text="{Binding languages.FinalTipLabel}"/></TextBlock>

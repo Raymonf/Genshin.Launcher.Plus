@@ -26,29 +26,14 @@
             </mah:FlipView>
         </Grid>
         <Grid HorizontalAlignment="Left" Height="685" Margin="1197,45,0,0" VerticalAlignment="Top" Width="83" Background="#66717171">
-            <Button x:Name="ScreenSrc" Style="{DynamicResource MahApps.Styles.Button.Circle}" Content=""  BorderBrush="#59000000" HorizontalAlignment="Center" Margin="0,176,0,0" VerticalAlignment="Top" Height="50" Width="50" BorderThickness="4" Command="{Binding OpenImagesDirectoryCommand}">
+            <Button x:Name="ScreenSrc" Style="{DynamicResource MahApps.Styles.Button.Circle}" Content=""  BorderBrush="#59000000" HorizontalAlignment="Center" Margin="0,248,0,0" VerticalAlignment="Top" Height="50" Width="50" BorderThickness="4" Command="{Binding OpenImagesDirectoryCommand}">
                 <Button.Background>
                     <ImageBrush ImageSource="/Images/ImagesButton.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="Setting" Style="{DynamicResource MahApps.Styles.Button.Circle}" Content="" HorizontalAlignment="Center" Margin="0,246,0,0" VerticalAlignment="Top" Height="50" Width="50" BorderBrush="#59000000" BorderThickness="4" Click="SettingsPageButton_Click">
+            <Button x:Name="Setting" Style="{DynamicResource MahApps.Styles.Button.Circle}" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" Height="50" Width="50" BorderBrush="#59000000" BorderThickness="4" Click="SettingsPageButton_Click" RenderTransformOrigin="0.61,-0.16">
                 <Button.Background>
                     <ImageBrush ImageSource="/Images/SettingsButton.png"/>
-                </Button.Background>
-            </Button>
-            <Button x:Name="QQGroup" Style="{DynamicResource MahApps.Styles.Button.Circle}" Content="" HorizontalAlignment="Center" VerticalAlignment="Top" Height="50" Width="50" BorderBrush="#59000000" BorderThickness="4" Margin="0,316,0,0" Command="{Binding OpenQQGroupUrlCommand}">
-                <Button.Background>
-                    <ImageBrush ImageSource="/Images/TencentGroupButton.png"/>
-                </Button.Background>
-            </Button>
-            <Button x:Name="AddUser" Style="{DynamicResource MahApps.Styles.Button.Circle}" Content="" HorizontalAlignment="Center" Margin="0,386,0,0" VerticalAlignment="Top" Height="50" Width="50" BorderBrush="#59000000" BorderThickness="4" Click="AddUser_Click">
-                <Button.Background>
-                    <ImageBrush ImageSource="/Images/AddUserButton.png"/>
-                </Button.Background>
-            </Button>
-            <Button x:Name="About" Style="{DynamicResource MahApps.Styles.Button.Circle}" Content="" HorizontalAlignment="Center" Margin="0,456,0,0" VerticalAlignment="Top" Height="50" Width="50" BorderBrush="#59000000" BorderThickness="4" Command="{Binding OpenAboutCommand}">
-                <Button.Background>
-                    <ImageBrush ImageSource="/Images/AboutButton.png"/>
                 </Button.Background>
             </Button>
         </Grid>
@@ -57,7 +42,12 @@
             <Button x:Name="MinSizeButton" Style="{DynamicResource MahApps.Styles.Button.Circle}" Background="#FF777777" Content="➖" BorderBrush="{x:Null}" HorizontalAlignment="Left" Margin="1210,0,0,0" VerticalAlignment="Center" Height="25" Width="25" Foreground="White" FontSize="10" Command="{Binding MainMinimizedCommand}"/>
             <Label x:Name="TitleMain" Content="{Binding Title}" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" FontSize="16" Foreground="White"/>
         </Grid>
-        <Button x:Name="Help_Copy" Style="{DynamicResource MahApps.Styles.Button.Circle}" Content="?" HorizontalAlignment="Left" Margin="10,684,0,0" VerticalAlignment="Top" Height="36" Width="36" BorderBrush="#7F000000" BorderThickness="4" Background="#7F808080" Foreground="White" FontSize="18" FontFamily="Microsoft YaHei UI" FontWeight="Bold" Click="Help_Copy_Click"/>
-        <Button x:Name="LangBtn" Style="{DynamicResource MahApps.Styles.Button.Circle}" Content="L" HorizontalAlignment="Left" Margin="52,684,0,0" VerticalAlignment="Top" Height="36" Width="36" BorderBrush="#7F000000" BorderThickness="4" Background="#7F808080" Foreground="White" FontSize="18" FontFamily="Microsoft YaHei UI" FontWeight="Bold" Click="LangBtn_Click"/>
+        <Button x:Name="Help_Copy" Style="{DynamicResource MahApps.Styles.Button.Circle}" Content="?" HorizontalAlignment="Left" Margin="10,684,0,0" VerticalAlignment="Top" Height="36" Width="36" BorderBrush="#7F000000" BorderThickness="4" Background="#7F808080" Foreground="White" FontSize="18" FontFamily="Microsoft JhengHei UI" FontWeight="Bold" Click="Help_Copy_Click"/>
+        <Button x:Name="LangBtn" Style="{DynamicResource MahApps.Styles.Button.Circle}" Content="L" HorizontalAlignment="Left" Margin="52,684,0,0" VerticalAlignment="Top" Height="36" Width="36" BorderBrush="#7F000000" BorderThickness="4" Background="#7F808080" Foreground="White" FontSize="18" FontFamily="Microsoft JhengHei UI" FontWeight="Bold" Click="LangBtn_Click"/>
+        <Button x:Name="AddUser" Style="{DynamicResource MahApps.Styles.Button.Circle}" Content="" HorizontalAlignment="Left" Margin="94,684,0,0" VerticalAlignment="Top" Height="36" Width="36" BorderBrush="#7F000000" BorderThickness="4" Foreground="White" FontSize="18" FontFamily="Microsoft JhengHei UI" FontWeight="Bold" Click="AddUser_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/AddUserButton.png"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </mah:MetroWindow>
